@@ -4,7 +4,10 @@ def say_hello(name)
 end
 
 say_hello("Kent Beck")
+
 # Default argument
-def say_hello(name)
+def say_hello(name="Ruby programmer")
   puts "Hello #{name}!"
 end
+
+say_hello
