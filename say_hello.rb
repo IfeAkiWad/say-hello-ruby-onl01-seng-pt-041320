@@ -6,7 +6,7 @@ end
 say_hello("Kent Beck")
 
 # Default argument
-def say_hello(name="Ruby programmer")
+def say_hello(name)
   puts "Hello #{name}!"
 end
 
